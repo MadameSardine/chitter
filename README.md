@@ -28,3 +28,11 @@ This means having two Heroku apps that are being deployed to and three GitHub re
 ## Bonus features
 * In order to start a conversation as a maker I want to reply to a peep from another maker
 * Work on the CSS
+
+## Tools
+* Ruby
+* Sinatra
+* Heroku
+
+## Link to app
+[Sardine-Chitter](http://sardine-chitter.herokuapp.com/)

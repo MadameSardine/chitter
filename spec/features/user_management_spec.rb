@@ -36,11 +36,11 @@ end
 feature "In order to user chitter I want to log in" do
 
 	before(:each) do
-		User.create(:username =>"MadameSardine",
-				:email => "sardine@me.com",
-				:name => "Sardine Tin",
-				:password => "password",
-				:password_confirmation => "password")
+		User.create(:username              => "MadameSardine",
+				    :email                 => "sardine@me.com",
+				    :name                  => "Sardine Tin",
+			     	:password              => "password",
+				    :password_confirmation => "password")
 	end
 
 	scenario "with correct credentials" do
